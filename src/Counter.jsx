@@ -13,7 +13,6 @@ function Counter() {
     
   return (
     <div>
-      <h1 className='text-3xl font-bold text-center p-5'>Counter</h1>
       <h1 className='flex flex-col items-center justify-center h-screen gap-4'>
         <button onClick={() => dispatch(Increment())}>+</button>
         <span className='text-2xl font-bold'> {count}  </span>
