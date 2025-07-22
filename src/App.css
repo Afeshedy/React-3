@@ -1,5 +1,5 @@
-body{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
+  @import "tailwindcss";
+  
+ button {
+   @apply bg-black text-white rounded px-4 py-2 m-2 hover:bg-gray-700 transition-colors duration-300 cursor-pointer;
+ }

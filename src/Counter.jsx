@@ -10,24 +10,13 @@ function Counter() {
 
     const dispatch = useDispatch();
 
-    const button = {
-        // backgroundColor: "black",
-        color: "black",
-        borderRadius: "5px",
-        padding: "10px 20px",
-        margin: "5px",
-        cursor: "pointer"
-    }
     
   return (
     <div>
-      <h1>
-        <button style={button} onClick={() => dispatch(Increment())}>+</button>
-        <br />
-        <span> {count}  </span>
-        <br />
-        <button style={button} onClick={() => dispatch(Decrement())}>-</button>
-        <br />
+      <h1 className='flex flex-col items-center justify-center h-screen gap-4'>
+        <button onClick={() => dispatch(Increment())}>+</button>
+        <span className='text-2xl font-bold'> {count}  </span>
+        <button onClick={() => dispatch(Decrement())}>-</button>
       </h1>
     </div>
   )

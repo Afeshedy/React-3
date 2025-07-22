@@ -4,7 +4,7 @@ import './App.css'
 
 function App() {
   return (
-    <div>
+    <div className='bg-blue-300'>
       <Counter/>
     </div>
   )
