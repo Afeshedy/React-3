@@ -19,7 +19,7 @@ function Counter() {
       <h1 className='text-2xl font-bold text-center'>Using React Redux</h1>
       <h1 className='text-2xl font-bold text-center'>Count: {count}</h1>
         <button onClick={() => dispatch(Increment())}>+</button>
-        <span className='text-2xl font-bold'> {count}  </span>
+        {/* <span className='text-2xl font-bold'> {count}  </span> */}
         <button onClick={() => dispatch(Decrement())}>-</button>
       </h1>
     </div>
